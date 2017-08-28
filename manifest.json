@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "İnstagram Photo Downloader",
+  "description": "İnstagram'da açtığınız fotoğrafı indirmenize yarar.",
+  "version": "1.0",
+  "icons": {
+    "48": "icon.png"
+  },
+  
+  "permissions": ["tabs", "https://*.instagram.com/*"],
+  "browser_action": {
+     "default_icon": "icon.png"
+   },
+   "content_scripts": [
+    {
+      "matches": ["https://*.instagram.com/*"],
+      "js": ["jquery.min.js", "myscript.js"]
+    }
+  ]
+}
