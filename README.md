@@ -12,3 +12,4 @@ Chrome extension sekmesinden developer modda paketi yükleyerek şimdiden deneye
   - Video download eklenecek.
   - Chrome store'a yüklenecek.
   - Kapatabilme özelliği eklenmeli.
+  - Profildeki tüm resimleri indirmesi sağlanacak ( Profil isminin yanına eklenecek bir buton sayesinde tü profil indirilebilir ).
